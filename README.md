@@ -1,6 +1,25 @@
 # Multi-modal-clickbait-classifier
- a multimodal deep learning model that anticipates the clickbait nature through the text and images uploaded on social media, this study seeks to recognize social media posts in a heuristic manner
+A multimodal deep learning model that anticipates the clickbait nature through the text and images uploaded on social media, this study seeks to recognize social media posts in a heuristic manner
 
+# Context: 
+Content that is written primarily to grab readers’
+attention is referred to as clickbait. These enticing contents
+encourage readers to click on links, which then direct them
+to a certain web page. The goal of clickbait articles is not
+to provide consumers with high-quality material but rather to
+generate website traffic. It is crucial to ensure that the social
+media updates made by digital marketing executives about newly
+released news pieces are not clickbait. Through a multimodal
+deep learning model that anticipates the clickbait nature through
+the text and images uploaded on social media, this study seeks to
+recognize social media posts in a heuristic manner. We train the
+current state-of-the-art text classifiers and image classifiers on
+our dataset, and the best-performing models for text and image
+which are Bi-GRU and CNN respectively. These models were
+considered to build the multimodal model, with the output based
+on an output function.
+
+# Results and Discussions: 
 we proposed a Multimodal model for click-
 bait detection on social media platforms that predicts both
 the images and text data posted. Considering the different
